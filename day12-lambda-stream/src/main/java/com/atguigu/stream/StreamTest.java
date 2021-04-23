@@ -1,4 +1,4 @@
-package com.atguigu;
+package com.atguigu.stream;
 
 import com.atguigu.java2.Employee;
 import com.atguigu.java2.EmployeeData;
@@ -167,9 +167,18 @@ public class StreamTest {
         // 最低工资员工-不能用map
         Optional<Employee> employee = employees.stream().min(Comparator.comparingDouble(Employee::getSalary));
         System.out.println("employee = " + employee);
-
-
     }
+
+
+    /**
+     * 归约
+     */
+    @Test
+    public void testReduce(){
+       
+    }
+
+
 
 
 

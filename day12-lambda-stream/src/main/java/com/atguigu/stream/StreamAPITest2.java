@@ -1,4 +1,4 @@
-package com.atguigu.java3;
+package com.atguigu.stream;
 
 import com.atguigu.java2.Employee;
 import com.atguigu.java2.EmployeeData;

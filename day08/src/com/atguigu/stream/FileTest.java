@@ -1,4 +1,4 @@
-package com.atguigu.java3;
+package com.atguigu.stream;
 
 import org.junit.Test;
 
